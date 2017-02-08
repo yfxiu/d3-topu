@@ -1,0 +1,22 @@
+{
+ "name": "flare",
+ "type": "loalBalance",
+ "children": [
+  {
+   "name": "analytics",
+   "type": "network"
+  },
+  {
+   "name": "analytics",
+   "type": "instance"
+  },
+  {
+   "name": "vis",
+   "type": "network",
+   "children": [
+    {"name": "Apple", "type": "instance"},
+    {"name": "Visualization", "type": "instance"}
+   ]
+  }
+ ]
+}

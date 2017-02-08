@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<meta charset="utf-8">
+<head>
+<title>Force-Directed Graph</title>
+<style>
+
+.node {
+  cursor: pointer;
+  stroke: #3182bd;
+  stroke-width: 1.5px;
+}
+
+.link {
+  fill: none;
+  stroke: #9ecae1;
+  stroke-width: 1.5px;
+}
+
+#svgContainer {
+  cursor: grab;
+  cursor: -webkit-grab;
+  width: 1800px;
+  height: 780px;
+}
+
+.context-menu {
+  list-style-type: none;
+  margin: 0;
+  position: absolute;
+  background-color: #F0FFFF;
+  padding: 2px;
+  font-size: 16px;
+  border-radius: 3px;
+  box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.6);
+  opacity: 0.7
+}
+
+.context-menu-li {
+  width: 110px;
+  text-align: left;
+  cursor: pointer;
+  padding: 2px 0 2px 12px;
+  border-radius: 1px;
+  color: #000;
+}
+
+</style>
+<link rel="stylesheet" type="text/css" href="css/font-awesome.css">
+</head>
+  <body>
+    <div id="svgContainer"></div>
+  </body>
+<script src="js/jquery-3.1.0.min.js"></script>
+<script src="js/angular.min.js"></script>
+<script src="js/d3.v3.min.js"></script>
+<script src="js/index.js"></script>
+<script>
+</script>
